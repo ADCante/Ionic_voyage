@@ -1,0 +1,51 @@
+<ion-content>
+  <ion-card>
+    <img
+      alt="Silhouette of mountains"
+      src="https://www.zarla.com/images/zarla-voyage-voyage-1x1-2400x2400-20210604-67838jkf6tqj9jkq6ck6.png?crop=1:1,smart&width=250&dpr=2"
+      alt="Sun with waves with a text written travel travel"
+    />
+    <ion-card-header>
+      <ion-card-title>Sign in</ion-card-title>
+      <ion-card-subtitle>You want to log in again</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-input
+            label="Email"
+            labelPlacement="stacked"
+            [clearOnEdit]="true"
+            placeholder="Enter email"
+          >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input
+            label="Password"
+            labelPlacement="stacked"
+            type="password"
+            placeholder="Enter password,"
+          >
+          </ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+    <ion-button expand="block">Sign in</ion-button>
+  </ion-card>
+
+  <ion-content class="ion-padding">
+    <ion-footer>
+      <ion-toolbar>
+        <ion-button fill="clear">Forgot Passwords</ion-button>
+        <ion-button fill="clear">Sign up</ion-button>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-content>
+
+  <ion-app>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-app>
+</ion-content>

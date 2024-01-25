@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">voyageclient</string>
+    <string name="title_activity_main">voyageclient</string>
+    <string name="package_name">ionic.voyageclient</string>
+    <string name="custom_url_scheme">ionic.voyageclient</string>
+</resources>

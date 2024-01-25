@@ -1,0 +1,7 @@
+{
+  "name": "voyageclient",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
